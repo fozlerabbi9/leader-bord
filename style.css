@@ -130,9 +130,12 @@ hr{
     .players{
         grid-template-columns: repeat(2, 1fr);
     }   
-    .players .player{
+    .players .player, .blog{
         justify-content: center;
         flex-direction: column;
+    }
+    .blogs .blog{
+        align-items: flex-start;
     }
 
     .blogs,.courses{
