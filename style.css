@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Luxurious+Roman&family=Playfair+Display&family=Poppins:wght@500&display=swap');
+
 body{
-    background-color: rgba(0,0,0,0.4);
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+}
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+}
+.players .player{
+    display: flex;
+    align-items: center;
+}
+.players .player img{
+    width: 56px;
+    height: 56px;
+}
+.players .player h3{
+    font-weight: 400;
+    margin-left: 16px;
 }
